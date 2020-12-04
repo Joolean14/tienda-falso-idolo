@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    width: 25%;
+    font-family: 'daisywheel';
+}
+
+ .card:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+} 
+
+.product-img {
+    margin: 3%;
+    width: 50%;
+}
+
+.product-name {
+    /* margin: 1%; */
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+.price {
+    font-size: 1vw;
+}

@@ -1,0 +1,40 @@
+.header-links {
+    background-color: black;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+    padding: 0 0 0 2%;
+    /* border: blue solid 2px; */
+}
+
+.icon {
+    margin: 0 2% 0 0;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+.section-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2%;
+    /* border: blue solid 2px; */
+}
+
+.section-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'daisywheel';
+    margin: 0 4% 0 0;
+    font-size: 2vw;
+}
+
+.section-link:hover {
+    opacity: 0.5;
+}
